@@ -19,13 +19,13 @@
 define('DB_NAME', 'unidadde_licores');
 
 /** MySQL database username */
-define('DB_USER', 'unidaddelicoresd');
+define('DB_USER', 'unidadde_admin');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Ngd(d{9&5dTZ');
+define('DB_PASSWORD', 'mousemouse');
 
 /** MySQL hostname */
-define('DB_HOST', 'http://unidaddelicoresdelmeta.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

@@ -25,7 +25,7 @@ define('DB_USER', 'unidaddelicoresd');
 define('DB_PASSWORD', 'Ngd(d{9&5dTZ');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'http://unidaddelicoresdelmeta.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

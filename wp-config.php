@@ -19,10 +19,10 @@
 define('DB_NAME', 'unidadde_licores');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'unidaddelicoresd');
 
 /** MySQL database password */
-define('DB_PASSWORD', '123456');
+define('DB_PASSWORD', 'Ngd(d{9&5dTZ');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

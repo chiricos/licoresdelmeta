@@ -1,0 +1,168 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+.hidden, #hidden{
+    display: none;
+}
+
+body{
+    background: url('/images/background.jpg') no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: linear-gradient(to bottom,#7F7F7F ,#464642 100%);
+    position: fixed;
+    width: 100%;
+}
+
+.section-header-up{
+    background: linear-gradient(to bottom,#000 ,#464642 100%);
+    height: 15px;
+    width: 100%;
+}
+
+.menu-header{
+    margin: auto;
+    width:980px;
+    height: 72px;
+}
+
+.menu-header figure, .menu-header div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-header figure{
+    height: 40px;
+    width: 300px;
+}
+
+.menu-header figure img{
+    height: 44px;
+    width: 290px;
+}
+
+.content-menu{
+    width: 595px;
+}
+
+nav{
+    float: right;
+    width: 514px;
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 30px 8px;
+    opacity: 0.8;
+    height: 45px;
+}
+
+.menu-empresa{
+    background: #F7F5F3;
+    width: 340px;
+    min-height: 200px;
+    position: fixed;
+    padding: 0px 15px;
+    left: 50%;
+    top: 125px;
+    border: 10px solid;
+    border-image: linear-gradient(#4D4D4A , #000) 14% stretch;
+
+}
+
+.menu-empresa article p{
+    font-size: 12px;
+    margin-top: -5px;
+
+}
+
+.content-menu-empresa{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+
+}
+.section-empresa{
+    margin: 0px 12px;
+}
+.content-menu-empresa a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    background: rgb(98, 98, 96);
+    margin-bottom: 7px;
+    padding: 4px 0px;
+}
+
+.content-menu-empresa a:hover{
+    background: black;
+}
+
+.menu-productos{
+    background: #F7F5F3;
+    width: 460px;
+    min-height: 145px;
+    position: fixed;
+    left: 50%;
+    top: 125px;
+    border: 10px solid;
+    border-image: linear-gradient(#4D4D4A , #000) 14% stretch;
+
+}
+
+.menu-productos figure{
+    margin: 10px 4px 0px 14px;
+}
+
+.menu-productos div{
+    width: 143px;
+}
+
+.content-menu-productos{
+    display: inline-block;
+    width: 49%;
+
+}
+
+
+.menu-productos figure, .menu-productos div{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.menu-productos div span{
+    font-size: 12px;
+}
+
+.menu-productos div p{
+    font-size: 25px;
+    margin: 4px -3px 12px;
+}
+
+
+.content-social{
+    position: fixed;
+    right: 17px;
+    top: 140px;
+    width: 32px;
+}
+
+.wrapper{
+      margin-left: 24%;
+      width: 980px;
+      min-height: 100%;
+      top: 89px;
+      position: fixed;
+}
